@@ -1,0 +1,54 @@
+.maincont{
+    width: 40vw;
+    height:auto;
+    
+   
+    background-color: rgb(32,35,39);
+
+   -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+   box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+   border-radius: 2%;
+   
+
+}
+
+.heading{
+    margin-top: 50px;
+}
+.skillset{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5rem;
+    
+
+}
+.progress{
+    width: 95%;
+    margin-left: 10px;
+    height: 8px;
+    background-image: linear-gradient(to right,rgb(49,97,230),rgb(238,70,99));
+    
+}
+
+@media  screen and (max-width:768px) {
+    .maincont{
+        margin-top: 20px;
+    }
+  .heading h1{
+    margin-left: -235px;
+  }
+}
+
+
+@media screen and (min-width:824px) and (max-width:900px) {
+    .leftrow{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:992px) {
+    .leftrow{
+        margin-left: 50px;
+    }
+}

@@ -1,0 +1,74 @@
+/* .imagelogo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    left: 20%;
+    margin-bottom: 3vw;
+
+}
+.maint{
+    margin-left: -1vw;
+}
+.mainheadings{
+  font-size: 1.3rem;
+  cursor: pointer;
+   color: rgb(255,1,79);
+   margin-top: -2vw;
+   margin-bottom: 3vw;
+   
+   
+ }
+ h4{
+    color: rgb(196,207,222);
+    cursor: pointer;
+  }
+ 
+  */
+
+
+  .imagelogo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    left: 20%;
+    margin-bottom: 3vw;
+}
+
+.maint {
+    margin-left: -1vw;
+}
+
+.mainheadings {
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: rgb(255, 1, 79);
+    margin-top: -2vw;
+    margin-bottom: 3vw;
+}
+
+h4 {
+    color: rgb(196, 207, 222);
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s; /* Add a transition for smooth animation */
+}
+
+h4::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* The line height and color */
+    background-color: rgb(255, 1, 79);
+    transition: width 0.2s ease-in-out; /* Animation duration and easing */
+}
+
+h4:hover::before {
+    width: 50%;
+    top: 25px;
+}

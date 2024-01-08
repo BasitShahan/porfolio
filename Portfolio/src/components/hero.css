@@ -1,0 +1,198 @@
+/* body{
+    background-color:#132440;
+
+} */
+
+ 
+.main{
+    color: white;
+}
+
+.text{
+    color: #00abf0;
+    
+}
+.para{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* image animation code  */
+/* hero.css */
+
+@keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Adjust the value to control the up and down movement */
+    }
+  }
+  
+  /* Apply the animation to the image */
+  .image-animation {
+    animation: moveUpDown 2s ease-in-out infinite;
+    
+    
+  }
+  
+
+button{
+width: 10vw;
+height: 8vh;
+border-radius: 6px ;
+cursor: pointer;
+    
+
+}
+
+
+
+
+.mainbox{
+    display: flex;
+    margin-top: 1rem;
+    gap: 10px;
+    cursor: pointer;
+    
+    
+}
+
+.mainbox img{
+    /* background-color: #00abf0; */
+    width: 50px;
+    margin-left: 10px ;
+    cursor: pointer;
+    
+    
+}
+
+
+
+@media screen and  (max-width: 480px) {
+
+
+    button{
+      width: 90px;
+      height: 45px;
+    }               
+  }
+
+    /* -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+   */
+
+  
+.maint{
+  display: flex;
+  gap: 20px;
+   
+}
+
+.maint div{
+  width: 5vw;
+  height: 10vh;
+  border-radius: 10px;
+  background-color: rgb(25,27,30);  
+
+  -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+
+}
+.maint div img{
+  background-color: #00abf0;
+  border-radius: 50% ;
+}  
+.maint div img:hover{
+  background-color: rgb(255,1,79);
+  
+  border-radius: 50%;
+  cursor: pointer;
+    
+
+}
+.animated-icon {
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.animated-icon:hover {
+  transform: translateY(-10px); /* Move the elements up on hover */
+}
+
+
+  
+@media screen and  (max-width: 480px) {
+  
+   .maincontent{
+    display: flex;
+    flex-direction: column;
+   }
+  .maint{
+    margin-left: 20px;
+    
+     
+     
+  }
+   .maint div{
+    width: 70px;
+    height: 70px;
+   }
+
+
+
+  }
+
+   
+@media screen and  (min-width: 480px) and (max-width: 768px) {
+  
+  .maincontent{
+   display: flex;
+   flex-direction: column;
+  }
+ .maint{
+   margin-left: 20px;
+   
+    
+    
+ }
+
+
+
+
+
+
+ .maint div{
+   width: 70px;
+   height: 70px;
+  }
+
+ }
+
+   
+ @media screen and  (min-width: 768px) and (max-width: 1500px) {
+  
+ 
+  .maint{
+   margin-left:20px;
+   
+    
+    
+ }
+ #second{
+   margin-left: 120px;
+ }
+.bestskillon{
+  margin-left: 120px;
+}
+  .maint div{
+    
+   width: 70px;
+   height: 70px;
+  }
+
+ }
+

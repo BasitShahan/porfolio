@@ -1,0 +1,79 @@
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(209,213,219);
+    margin-top: 6rem;
+    
+}
+.project .mainheading p{
+    word-spacing: 2px;
+   color: rgb(255,1,79);    
+   
+}
+.secondheading h1{
+    font-size: 5vw;
+    font-weight: 500;
+    color:rgb(209,213,219);
+    
+}
+.man{
+    
+      height: 100vh; 
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+    border-radius: 2%;
+    
+}
+
+.caption{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(10px);
+}
+.fonticons{
+    color: white;
+    font-size: 30px;
+     
+}
+p{
+       transform: translateY(20px);
+        font-size: 15px;
+        color: rgb(196,202,198);
+        text-align: justify;
+        word-spacing: 5px;
+    }
+.icons{
+    transform: translateX(-10px);
+
+    }
+    .fonticons .icons:hover{
+        color: rgb(255,1,79); 
+    }
+    .fonticons .icon2:hover{
+        color: rgb(255,1,79); 
+    }
+   .man:hover{
+   
+    animation: moveUpDown 0.5s  ease-in-out forwards; /* Use forwards to retain the final state */
+   
+}
+
+@keyframes moveUpDown {
+    0%{
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .man{
+       height: 30rem;
+       margin-left: 2rem;
+    }   
+   }
+   
