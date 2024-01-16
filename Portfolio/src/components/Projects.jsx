@@ -99,7 +99,7 @@ export default function Projects() {
               <img src={value.images} width='100%' alt="Project" />
                  <div className='caption'>
                    <div>
-                     <p style={{ color: 'rgb(255,1,79)'   }}>{value.name}</p> 
+                     <p style={{ color: 'rgb(255,1,79)',textAlign:'justify'   }}>{value.name}</p> 
                          
                    </div> 
 

@@ -77,3 +77,11 @@ p{
     }   
    }
    
+   @media  screen and (max-width:480px) {
+    .man{
+        width: 100%;
+        height: 100%;
+    }
+    
+
+   }

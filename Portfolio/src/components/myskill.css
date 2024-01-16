@@ -30,6 +30,11 @@
     background-image: linear-gradient(to right,rgb(49,97,230),rgb(238,70,99));
     
 }
+@media screen and (max-width:480px) {
+    .maincont{
+        width: 100%;
+    }
+}
 
 @media  screen and (max-width:768px) {
     .maincont{

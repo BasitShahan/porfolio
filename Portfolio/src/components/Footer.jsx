@@ -6,7 +6,7 @@ export default function Footer() {
       <div className='container'>
         <div className="row">
          <div className="col-12 col-md-3 col-lg-3 col-sm-12 col-xxl-3">
-                <div>
+                <div className='moveimage'>
                     <img src="../images/contact.png" className='imagelogo' alt="" />
                 </div>
                  <div className='maint'>

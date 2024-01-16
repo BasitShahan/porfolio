@@ -72,3 +72,10 @@ h4:hover::before {
     width: 50%;
     top: 25px;
 }
+
+@media screen and (max-width:480px) {
+    .moveimage{
+         margin-left:-60px;
+        margin-top: 50px;
+    }
+}

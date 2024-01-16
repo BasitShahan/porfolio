@@ -78,8 +78,13 @@
   }
   @media screen and (max-width:480px) {
     .parents{
-     height: 50vh;
+      width: 100%;
+     height: 100%;
      margin-bottom: 10px;
+    }
+     
+    .title {
+    overflow-y: hidden;
   }
   
   }

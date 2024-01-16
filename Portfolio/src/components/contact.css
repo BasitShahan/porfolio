@@ -350,7 +350,8 @@ margin-left: 0.8rem;
      .rightflex {
         display: contents;
         flex-direction: column;
-     }
+             
+    }
      .rightflex div{
         margin-left: 10px;
      }
@@ -386,3 +387,23 @@ width: 100%;
 }
     
 }
+
+@media  screen and (max-width:480px) {
+    .righparent{
+        margin-top: 20px;
+        margin-left: 22px;
+     }
+    .contactparent{
+        margin-top: 100px;
+    }
+    
+    .move{
+        margin-top: 60px;
+    }
+    .settext h1{
+        
+       font-size:30px;
+       text-align: center;
+    }  
+}
+

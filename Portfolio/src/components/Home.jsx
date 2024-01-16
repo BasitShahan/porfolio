@@ -5,7 +5,7 @@ import Projects from './Projects'
 import Contact from './Contact'
 import Footer from './Footer'
 import Resume from './Resume'
-
+import './home.css'
 export default function Home() {
  const date=new Date().getFullYear();
    return (
@@ -19,13 +19,15 @@ export default function Home() {
       <hr style={{color:'rgb(86,91,98)',marginTop:'40px'}} />
 
           <Resume/> 
-          <hr style={{color:'rgb(86,91,98)',marginTop:'40px'}} />
-
+          <hr style={{color:'rgb(86,91,98)',marginTop:'40px'}} className='sethr' />
+       <br/>
+ 
         <Contact/> 
-        <hr style={{color:'rgb(86,91,98)',marginTop:'10vw',}} />
+        <hr style={{color:'rgb(86,91,98)',marginTop:'90px'}} className='sethr' />
+        
          
        <Footer/>
-       <hr style={{color:'rgb(86,91,98)',marginTop:'40px'}} />
+      
         
       <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
           <div>

@@ -46,12 +46,25 @@
       
 
     <div className='contactparent'>
-    <div>
+    {/* <div className='move'>
       <p style={{ color: 'rgb(255,1,79)' }}>CONTACT</p>
-    </div>
-    <div>
+    
+      </div>
+    <div className='move'>
       <h1>Contact With Me</h1>
-    </div>
+   
+      </div>
+     */}
+     <div className='move'>
+      <div>
+      <p style={{ color: 'rgb(255,1,79)',textAlign:'center',fontSize:'40px'  }}>CONTACT</p>
+    
+      </div>
+      <div className='settext'>
+      <h1  >Contact With Me</h1>
+   
+      </div>
+     </div>
     </div>
     <div className="container">
     <div className="row">

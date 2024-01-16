@@ -125,3 +125,25 @@ margin-top: 50px;
         text-align: center;
      }
       }
+      @media screen and (max-width:480px) {
+        .jobpar{
+           height: 100%;
+           margin-left: 30px;
+        }
+        .h11{
+            text-align: center;
+        }
+        .eduparent{
+            width: 100%;
+            height: auto;
+             margin-left: 23px;
+        }  
+        .intermediate{
+            width: auto;
+            height: auto;
+            text-align: justify;
+            overflow: hidden;
+            margin-left: 30px;   
+        }
+    }
+
